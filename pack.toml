@@ -1,0 +1,16 @@
+name = "Modpack Base (Quilt)"
+author = "jadelily18"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7b083891142aa51ebd9bd2b4fec2ddc28fda26f63f8442f1f7d233aa5d07029b"
+
+[versions]
+minecraft = "1.19.2"
+quilt = "0.19.0-beta.13"
+
+[options]
+acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
