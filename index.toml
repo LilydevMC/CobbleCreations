@@ -46,7 +46,7 @@ hash = "52245491426038474b59233bb556a664132a151d524120eb0ca9e3ee9c7bee91"
 
 [[files]]
 file = "config/emi.css"
-hash = "eabec6c232192b18820a75b669a26273fc8caae3310a525d236551cc93e86af0"
+hash = "ba28e0d31be731fb2390c233267217f23e846661e798d5971a12b12430ae52ff"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -66,7 +66,7 @@ hash = "fc3766132ef19edfe53712cc86e67eed74138a5f63fac9efb878645da71a7dac"
 
 [[files]]
 file = "config/iris.properties"
-hash = "a4be4325e2749c861b843b3473fe931b0c88c1e6105edddff2b7e57d91fe94bd"
+hash = "26de62f94430abfa8700b3b5dec9b92b627d6af7e2b57e6ccd1ab8eec30d0996"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
