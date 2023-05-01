@@ -69,6 +69,10 @@ file = "config/iris.properties"
 hash = "a4be4325e2749c861b843b3473fe931b0c88c1e6105edddff2b7e57d91fe94bd"
 
 [[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "cd9936b04cb6ebe3ea82f63a9fba212681f29c23a49557262b12e9de0aeef0a6"
+
+[[files]]
 file = "config/minihud.json"
 hash = "368e9841433aad1f47d4caf09ec9a3973e56c9719d84c1aa54df0d9471e922a6"
 
@@ -98,7 +102,7 @@ hash = "711580abcceab7bd1a2417f71828e34fca82b25d8b7d7cdbdf4559f6fb58471c"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "7bc880c6d43ce3f736b562da238281df3c8957285dec23fdf82147b58aeff745"
+hash = "0c5aa7383de13e15ae465adc8de8b7c2ded8cdc568c30eb709f78a090598e683"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -497,7 +501,7 @@ metafile = true
 
 [[files]]
 file = "mods/main-menu-credits.pw.toml"
-hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
+hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
 metafile = true
 
 [[files]]
