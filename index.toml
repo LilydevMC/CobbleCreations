@@ -62,7 +62,7 @@ hash = "7708343e1bec29935db21d882ec4e7dc7f0e6cb347e5478e1359e5d24f64cbca"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "f67a43608640547ffc870307cf8e92e4d6ef303971e71ea9b9fde475577cf24b"
+hash = "fc3766132ef19edfe53712cc86e67eed74138a5f63fac9efb878645da71a7dac"
 
 [[files]]
 file = "config/iris.properties"
@@ -98,7 +98,7 @@ hash = "711580abcceab7bd1a2417f71828e34fca82b25d8b7d7cdbdf4559f6fb58471c"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "8a6818fc30084af10561e61b31d01d7a166ab6eaa1f6691c985d86988b2e2051"
+hash = "7bc880c6d43ce3f736b562da238281df3c8957285dec23fdf82147b58aeff745"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -258,6 +258,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "83614dafb16c2e29f08dfcf8f6105ed8bc7450d1e8b3ad078282504e9c44ae81"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonextras.pw.toml"
+hash = "f5d0914d3649ad96cab7fd278b8c5d115895b5740ba22cf3e78e3125ce9f82a1"
 metafile = true
 
 [[files]]
@@ -488,6 +493,11 @@ metafile = true
 [[files]]
 file = "mods/low-fire.pw.toml"
 hash = "5891e21a1b4f0bf9293cd835ca6e5a0dc0f080425dc5c0769640d58dfc0c7107"
+metafile = true
+
+[[files]]
+file = "mods/main-menu-credits.pw.toml"
+hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
 metafile = true
 
 [[files]]
