@@ -5,6 +5,10 @@ file = "LICENSE"
 hash = "7d3a95e5e06978064ed3f8e2b7c8f845e7fd8a405294727cc708f94cb83b8059"
 
 [[files]]
+file = "assets/banner.png"
+hash = "bcc588b50652326c45c8402065bc048929310ee694899b905e492d587898ca08"
+
+[[files]]
 file = "assets/icon.png"
 hash = "888761312a82b9b33ec7b91691a09f4f2f8bf941ff87e23ca64343ffe15ba6ba"
 
@@ -71,6 +75,10 @@ hash = "368e9841433aad1f47d4caf09ec9a3973e56c9719d84c1aa54df0d9471e922a6"
 [[files]]
 file = "config/ok_zoomer/config.toml"
 hash = "049aaf863d27f879be4b0a763b71098413415f240949924180c452aceffb0693"
+
+[[files]]
+file = "config/pfm.toml"
+hash = "6766d8f6c90f09f96f74274829db94858bbf45775c2b27375edd853635249453"
 
 [[files]]
 file = "config/puzzle.json"
