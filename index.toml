@@ -13,14 +13,6 @@ file = "assets/icon_200px.png"
 hash = "d326f22386722f8aa69ba6c3f98e88edd5fa84070cb144c8fe415d66a92eae86"
 
 [[files]]
-file = "config/MiniMOTD/icons/uwu-cafe-server-icon.png"
-hash = "5196cc9e6f1dc05aaec7bf3b0d972f6f561996e4e6c7433ff17f113e8b692016"
-
-[[files]]
-file = "config/MiniMOTD/main.conf"
-hash = "3532bb70d50ef2b1f733472621d2ef46695b8633bd05e632e07e883b6ca06476"
-
-[[files]]
 file = "config/NoChatReports/NCR-Common.json"
 hash = "d923f52d7b559b91ee9dcf099ff9b6ea29b81dc9a43d08a494ab7b1c3325f37a"
 
@@ -93,20 +85,17 @@ file = "config/sodium-options.json"
 hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 
 [[files]]
-file = "config/styledplayerlist/config.json"
-hash = "2bdd53b76f2dcb59940dcd212c4f8bcdc8ffef5f48002edd3e53c69b1b8b60b6"
-
-[[files]]
-file = "config/styledplayerlist/styles/default.json"
-hash = "711580abcceab7bd1a2417f71828e34fca82b25d8b7d7cdbdf4559f6fb58471c"
-
-[[files]]
 file = "config/yosbr/options.txt"
 hash = "0c5aa7383de13e15ae465adc8de8b7c2ded8cdc568c30eb709f78a090598e683"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "fbad3ce2bcab1b8a73a541000100dc5ed3323bcf571e4e2a4a3c28db5c520509"
+metafile = true
+
+[[files]]
+file = "mods/adorn.pw.toml"
+hash = "0904d6eaf57c3a13708c22af5eccaac980cbaa38097d1ebfff6429be207b367a"
 metafile = true
 
 [[files]]
@@ -165,6 +154,11 @@ hash = "63edbd012db544d0590a1cd2563a4973c0316b8033370b41a48c05b0e8e667e5"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "0708223179ebe2bad131cfc063dde7cf65ec355c18a3c1392646142e46ea95f3"
+metafile = true
+
+[[files]]
 file = "mods/better-animations-collection.pw.toml"
 hash = "026414a0dcab2f08018f569431081e5e5c245cdb3c74ee3aaaa466403b6a7be3"
 metafile = true
@@ -197,6 +191,11 @@ metafile = true
 [[files]]
 file = "mods/biomesyougo.pw.toml"
 hash = "dbbe09e6693b3c8608f7831b99f66ff57a62a5dfef612295cbe144553abd7336"
+metafile = true
+
+[[files]]
+file = "mods/bits-and-chisels.pw.toml"
+hash = "e7d7b42cc3b56d79d18599f936742b711f849b372ca4b6106a5d00d624573d59"
 metafile = true
 
 [[files]]
@@ -280,8 +279,18 @@ hash = "c49d1423a5f2563335fd5719862a861c8ae2c9cbc46598e767c3e2fe1042ecae"
 metafile = true
 
 [[files]]
+file = "mods/consistencyplus.pw.toml"
+hash = "0a82c23063612bf1baf43934323d8fca8dd23ddc2dc0a3db968f72d14b99e887"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "984741a3b4d5612df37b81d7349dd1f130257eaf7d94d95b72ce43fff9411885"
+metafile = true
+
+[[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "f066498a64c8a7c13dc28dda561fb4a2923da63df002e1bbbbf8f2652869cbd2"
 metafile = true
 
 [[files]]
@@ -292,6 +301,11 @@ metafile = true
 [[files]]
 file = "mods/craftpresence.pw.toml"
 hash = "f1ff9d9465d95ebd61aeb4ce2fdb69fb161ffb7ef772090339197ee4aa9fe070"
+metafile = true
+
+[[files]]
+file = "mods/create-crystal-clear-fabric.pw.toml"
+hash = "790d09e1bee44adf6f4867d2c63a4626c96c5b8eec0b9f8ea2a14f8465434f02"
 metafile = true
 
 [[files]]
@@ -370,8 +384,18 @@ hash = "64e37fd54d2b0afced5c242e90579f321c7fa9cbf1b3270cd4c31a0575eb0e07"
 metafile = true
 
 [[files]]
+file = "mods/fabric-chisel.pw.toml"
+hash = "0e48c6bd353cf8b4e1bda95e86a2b063d6b625c8100e55e4e7896310cff9e734"
+metafile = true
+
+[[files]]
 file = "mods/fabrishot.pw.toml"
 hash = "32cff441dba71cee026356fe08147e289183532b7215071cdb0dd91af56aa643"
+metafile = true
+
+[[files]]
+file = "mods/factory-blocks.pw.toml"
+hash = "cc572f7d696a52ea00f58bbc57eb10e4c6f90c808bdbf7b4425b28ad127d5b68"
 metafile = true
 
 [[files]]
@@ -402,6 +426,11 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "3a68d8f694877589b9d29bd7b44b590a123007f28142d0deed1ba34c9b90b51c"
+metafile = true
+
+[[files]]
+file = "mods/frame-api.pw.toml"
+hash = "8178032232586e97c3db3aa7c9f5c3901d98c53b6aeed32097a4acbfd908c374"
 metafile = true
 
 [[files]]
@@ -563,6 +592,11 @@ hash = "1aa7510ec1a3994273a20f8b341f676583b9ede2eaea3badd46deb7178d92a6c"
 metafile = true
 
 [[files]]
+file = "mods/no-more-purple.pw.toml"
+hash = "e21ebd1f1ce52a45f91f5b1e73b032a924b119bdeeacae91ce15520615364678"
+metafile = true
+
+[[files]]
 file = "mods/ok-zoomer.pw.toml"
 hash = "67e52f1d24affe5295829b38769d1181fb147c4ebc86531fce0fae2d1549ef9a"
 metafile = true
@@ -570,6 +604,21 @@ metafile = true
 [[files]]
 file = "mods/optigui.pw.toml"
 hash = "fc829d9bfa6e9c399324e64cc5feb01f01630fc0971c7286ac08b5575dcf89b2"
+metafile = true
+
+[[files]]
+file = "mods/paladins-furniture.pw.toml"
+hash = "02d1024c42cd3671768a7b851a5dc95498b28b892581cd0969bf7c8a44277266"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "2dab4b3cea2f1ce1505c3c7be55d8fb6123a7593435134f2c15eed18e6c07ddf"
+metafile = true
+
+[[files]]
+file = "mods/plushie.pw.toml"
+hash = "91c8f12f4b35547f32d868157c5d869f4ef7c31214f717c3ef76effc176700bc"
 metafile = true
 
 [[files]]
@@ -613,6 +662,11 @@ hash = "37e1ed4d92b2a881da44e4e042fced9a741408ba87631c32ca306d86d5ee3116"
 metafile = true
 
 [[files]]
+file = "mods/rats-mischief.pw.toml"
+hash = "b0da1f56d9d037a5edb8b837bbf5a7dafb7679f42a9a2bd7865bbb2d4fad57b1"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "b2e3be698473bfb3f08865a11e74c9ee8d47239ac72a79d60acc1ee381722a50"
 metafile = true
@@ -620,6 +674,11 @@ metafile = true
 [[files]]
 file = "mods/replant-swamp-trees.pw.toml"
 hash = "8d47c3c5284403de1fa9d4bd1bf6fb38c901dda95354ece8f09d30524df597ee"
+metafile = true
+
+[[files]]
+file = "mods/rules.pw.toml"
+hash = "9af8df32148789d0a5c4f30cdcf4fc3d1f7bf0ed88161ed96c3110796113ab86"
 metafile = true
 
 [[files]]
@@ -635,6 +694,11 @@ metafile = true
 [[files]]
 file = "mods/smoothboot-fabric.pw.toml"
 hash = "971e8b0bef16bd6ce88c7f940b30fdc1debff7b715058f4d331d54beb58a4314"
+metafile = true
+
+[[files]]
+file = "mods/snowyleavesplus.pw.toml"
+hash = "e15675e02f792d7a003165ea749b7e9d54302df411d4799cdb0f2d5d4d4c4648"
 metafile = true
 
 [[files]]
@@ -688,6 +752,16 @@ hash = "ff9734e83519d4b1a516101f16b30650d00877d55ac1b62c24466ee2cc2a825a"
 metafile = true
 
 [[files]]
+file = "mods/trinkets.pw.toml"
+hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
+metafile = true
+
+[[files]]
+file = "mods/twigs.pw.toml"
+hash = "49f66f26db6f00e16e94c0b161f3786f9d7afaef4667e78b9e5e35a1c9556a7d"
+metafile = true
+
+[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "e07450f78974ba068de931778d49c0937b24d133ce023d87b09d00754e5a045a"
 metafile = true
@@ -708,6 +782,16 @@ hash = "8a4a4e24b30d401e195211153879287b4e2bb1bbb3e56d904ca84bffbecd7f99"
 metafile = true
 
 [[files]]
+file = "mods/waystones.pw.toml"
+hash = "e61c296aa297779459086a93d9cb8eb2528541b78cdee90c8cb1ff2ee83fa06a"
+metafile = true
+
+[[files]]
+file = "mods/wilder-wild.pw.toml"
+hash = "9b025e1052343a3705aa9d3ab0a30943fcd7992aa92327306d7e5101daca9e05"
+metafile = true
+
+[[files]]
 file = "mods/wthit.pw.toml"
 hash = "c0cc16fc8e87fd8e40dd505bd31bca9a86da509ec0f2043831a61cfeb272c8de"
 metafile = true
@@ -718,6 +802,56 @@ hash = "80bab11e8d1438ec93695050f087dc2f9d0ae1d2523a17b8236af7029f14119e"
 metafile = true
 
 [[files]]
+file = "mods/yigd.pw.toml"
+hash = "36bc57806a6d997d79767620bc3f0b019e878f337a2655b9cb98a006c4e5d2e8"
+metafile = true
+
+[[files]]
 file = "mods/yosbr.pw.toml"
 hash = "7c2712882baa2ed177b9b961cc1052b857f11ed1455609f9e9f01332c0317f12"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "e8036308d5fdaf3e155684892dffa19122c31745c40fbe55027a1677179263d7"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-dungeons.pw.toml"
+hash = "50c2ce35a2678f4666e700b43da4c48d2a47fbd04ac35cc735ca20a846686aed"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts.pw.toml"
+hash = "db24b9f5262599c4a358be6e80e78a9fc0e4ad46b4dd00435aca9f76a60d7ca0"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-nether-fortresses.pw.toml"
+hash = "dc3044cf3ee836be2c3c0e8c6e3c6c5c0fb218cd72f2c41b082cbeb6056cc274"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-ocean-monuments.pw.toml"
+hash = "b097a8278c0395cca7aa1cbe8dc446973478d1b7729e30e836962a55275ef7b0"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-strongholds.pw.toml"
+hash = "455bd61468b04ec66000901d5c112a97dabd3343f9e6d96ad3c148726e7c5bf8"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-witch-huts.pw.toml"
+hash = "14d7190f311125e364f288daabdcb92737164a26c9198a4e8901c718776f6fdd"
+metafile = true
+
+[[files]]
+file = "mods/yungs-bridges.pw.toml"
+hash = "7ff8a4f5dc16d36c44d08439017a97006d333ca196dd4a6507d82debe9af05f5"
+metafile = true
+
+[[files]]
+file = "mods/yungs-extras.pw.toml"
+hash = "4b502ea7f185b192b42c890e30b181246b341b1fcf4bd626b68c07de3cb46b19"
 metafile = true
