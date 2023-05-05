@@ -9,6 +9,10 @@ file = "assets/banner.png"
 hash = "bcc588b50652326c45c8402065bc048929310ee694899b905e492d587898ca08"
 
 [[files]]
+file = "assets/banner_no_text.png"
+hash = "f56b3a614d15075a6254588adf67f154a65fd0334ed1a352c0b802522539a6ae"
+
+[[files]]
 file = "assets/icon.png"
 hash = "888761312a82b9b33ec7b91691a09f4f2f8bf941ff87e23ca64343ffe15ba6ba"
 

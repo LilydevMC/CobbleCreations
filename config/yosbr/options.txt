@@ -137,7 +137,7 @@ key_key.cobblemon.hideparty:key.keyboard.p
 key_key.cobblemon.summary:key.keyboard.m
 key_key.cobblemon.downshiftparty:key.keyboard.down
 key_key.cobblemon.upshiftparty:key.keyboard.up
-key_key.cobblemon.throwpartypokemon:key.keyboard.b
+key_key.cobblemon.throwpartypokemon:key.keyboard.x
 key_key.raised.hud.down:key.keyboard.keypad.subtract
 key_key.raised.hud.up:key.keyboard.keypad.add
 key_key.raised.chat.down:key.keyboard.keypad.divide
