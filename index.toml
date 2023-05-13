@@ -227,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "d0faea9c2424906291c80e9e5464d05a070858c6c88f668dcdb993ac438d7a20"
+hash = "4f6fbbae9d8f5cb6db33e33557dd5fcf0e4653f0cc94f89eebefb7124a721164"
 metafile = true
 
 [[files]]
@@ -511,7 +511,7 @@ metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
-hash = "998f45a9037fa4663bc5e2bea5de925bf4ce6352328fcaaa830db8466cc62416"
+hash = "f1e9acf4e6d5dd002f69ea954830995dd3b464a1bd4069ee647f9c25ebaed812"
 metafile = true
 
 [[files]]
