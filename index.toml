@@ -70,7 +70,7 @@ hash = "26de62f94430abfa8700b3b5dec9b92b627d6af7e2b57e6ccd1ab8eec30d0996"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "863aaa04ed8c3b5e57f6c8cbadfb2e7674142b015b58b9eb8e46fc090dbe1646"
+hash = "05de5251ff602beb9ad415dd235d3901db2bc9c49eb369fa0c8cdc28f2ff121c"
 
 [[files]]
 file = "config/minihud.json"
@@ -296,9 +296,8 @@ hash = "c49d1423a5f2563335fd5719862a861c8ae2c9cbc46598e767c3e2fe1042ecae"
 metafile = true
 
 [[files]]
-file = "mods/consistencyplus.pw.toml"
-hash = "0a82c23063612bf1baf43934323d8fca8dd23ddc2dc0a3db968f72d14b99e887"
-metafile = true
+file = "mods/consistency_plus-fabric-0.5.2+1.19.2.jar"
+hash = "b45343ef120eae1ad7be38f01836cf03108568832a62b267d1bd8b95e00e11a2"
 
 [[files]]
 file = "mods/continuity.pw.toml"
@@ -533,11 +532,6 @@ metafile = true
 [[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
-metafile = true
-
-[[files]]
-file = "mods/letsleepingdogslie.pw.toml"
-hash = "952750128606f2e8a6d38802b937c6682f2558757b2724b51e931858d5171ae5"
 metafile = true
 
 [[files]]
