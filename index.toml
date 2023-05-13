@@ -70,7 +70,7 @@ hash = "26de62f94430abfa8700b3b5dec9b92b627d6af7e2b57e6ccd1ab8eec30d0996"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "cd9936b04cb6ebe3ea82f63a9fba212681f29c23a49557262b12e9de0aeef0a6"
+hash = "863aaa04ed8c3b5e57f6c8cbadfb2e7674142b015b58b9eb8e46fc090dbe1646"
 
 [[files]]
 file = "config/minihud.json"
@@ -98,7 +98,7 @@ hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "0c5aa7383de13e15ae465adc8de8b7c2ded8cdc568c30eb709f78a090598e683"
+hash = "2643ca0e43174c3148a450ab915f324eef5c359d954b194e800ca591a9c00ca2"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -226,8 +226,18 @@ hash = "e8ccaa2816d767744121e3240a30bb061f8bba8c9274909017832d2f8576ce50"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "d0faea9c2424906291c80e9e5464d05a070858c6c88f668dcdb993ac438d7a20"
+metafile = true
+
+[[files]]
 file = "mods/capes.pw.toml"
 hash = "1d5ff51cdf133abc091eda828043e7f4472bba1faea1faacc41bb50ca8315b28"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "46b444dc88aac495a314699961072c72b16661130aff501d176a2b8c12c49b72"
 metafile = true
 
 [[files]]
@@ -243,11 +253,6 @@ metafile = true
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "9cba2d347b86155259f77c55a5aeff95c1e865ff3e55146541d0f4d6fb27c8f1"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "b52cd1f4295d855882a41b5f164385e2ba460d7766a2e2e6183ef56c00c824ab"
 metafile = true
 
 [[files]]
@@ -503,6 +508,11 @@ metafile = true
 [[files]]
 file = "mods/itemswapper.pw.toml"
 hash = "cdc6994dedc82cf7807f6afbdde9000cf11841c174008b2aad20f62d9b0b08c7"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "998f45a9037fa4663bc5e2bea5de925bf4ce6352328fcaaa830db8466cc62416"
 metafile = true
 
 [[files]]
