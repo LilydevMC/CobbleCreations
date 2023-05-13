@@ -511,16 +511,6 @@ hash = "cdc6994dedc82cf7807f6afbdde9000cf11841c174008b2aad20f62d9b0b08c7"
 metafile = true
 
 [[files]]
-file = "mods/jade-addons-fabric.pw.toml"
-hash = "6f6c3d6646f445f0614c57d9b3c4d56d5b5057d6370f18ed8ac255dc8b65dbbd"
-metafile = true
-
-[[files]]
-file = "mods/jade.pw.toml"
-hash = "33022430ccfc723fa386c77650f70b2ad987e1e68fa8986e1de0d9778fafebd7"
-metafile = true
-
-[[files]]
 file = "mods/krypton.pw.toml"
 hash = "998f45a9037fa4663bc5e2bea5de925bf4ce6352328fcaaa830db8466cc62416"
 metafile = true
@@ -821,6 +811,11 @@ metafile = true
 [[files]]
 file = "mods/wilder-wild.pw.toml"
 hash = "9b025e1052343a3705aa9d3ab0a30943fcd7992aa92327306d7e5101daca9e05"
+metafile = true
+
+[[files]]
+file = "mods/wthit.pw.toml"
+hash = "c0cc16fc8e87fd8e40dd505bd31bca9a86da509ec0f2043831a61cfeb272c8de"
 metafile = true
 
 [[files]]
