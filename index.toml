@@ -6,7 +6,7 @@ hash = "7d3a95e5e06978064ed3f8e2b7c8f845e7fd8a405294727cc708f94cb83b8059"
 
 [[files]]
 file = "assets/banner.png"
-hash = "bcc588b50652326c45c8402065bc048929310ee694899b905e492d587898ca08"
+hash = "6a8b2099cb00c8ef5656520263fa87c66f737cc65e8548ac6c11237d345f1c29"
 
 [[files]]
 file = "assets/banner_no_text.png"
@@ -14,11 +14,15 @@ hash = "f56b3a614d15075a6254588adf67f154a65fd0334ed1a352c0b802522539a6ae"
 
 [[files]]
 file = "assets/icon.png"
-hash = "888761312a82b9b33ec7b91691a09f4f2f8bf941ff87e23ca64343ffe15ba6ba"
+hash = "3cb3469c2580e985cd9d737fc89cba6929d1b4cdea71eb0017d24a6760b499b0"
 
 [[files]]
 file = "assets/icon_200px.png"
-hash = "d326f22386722f8aa69ba6c3f98e88edd5fa84070cb144c8fe415d66a92eae86"
+hash = "f7f6c0e923133dd3613075d5cf4714dfad8ff504870788dd3e68a89925131279"
+
+[[files]]
+file = "assets/logo.png"
+hash = "6bd62dddde68907c41c1fbbfe7f185b9b2c1114f2b3ca53e346aaa2b64f02fa1"
 
 [[files]]
 file = "config/NoChatReports/NCR-Common.json"
@@ -46,7 +50,7 @@ hash = "52245491426038474b59233bb556a664132a151d524120eb0ca9e3ee9c7bee91"
 
 [[files]]
 file = "config/emi.css"
-hash = "ba28e0d31be731fb2390c233267217f23e846661e798d5971a12b12430ae52ff"
+hash = "f57be141788e6a1dbe6fb29dff909f1c072d7cc02d7d404239fdce65b68ca646"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -70,7 +74,27 @@ hash = "26de62f94430abfa8700b3b5dec9b92b627d6af7e2b57e6ccd1ab8eec30d0996"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "05de5251ff602beb9ad415dd235d3901db2bc9c49eb369fa0c8cdc28f2ff121c"
+hash = "6d4203f8b62c8b3372945cebf0ae120757b691c5207c2f2cd48d1bce79d07181"
+
+[[files]]
+file = "config/jade/hide-entities.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/jade/jade.json"
+hash = "6fa26760594cf0d8d2ea3b08fd60dedee15b24b6c788b2adffc1ad6d1de49935"
+
+[[files]]
+file = "config/jade/plugins.json"
+hash = "ff0b09c46962f7aa0c45177007808d4897346e933fb38c755196cbb1597c68a9"
+
+[[files]]
+file = "config/jade/sort-order.json"
+hash = "6f0a3f82f14acf17aa97c4e4325ae23003d229bf3be3d068987ecb1fe337a1d3"
+
+[[files]]
+file = "config/jade/usernamecache.json"
+hash = "7d167b98baf082517e1eb9633045002624cd6ac6f850b567eddcd3e2ecf93b0a"
 
 [[files]]
 file = "config/minihud.json"
@@ -510,6 +534,16 @@ hash = "cdc6994dedc82cf7807f6afbdde9000cf11841c174008b2aad20f62d9b0b08c7"
 metafile = true
 
 [[files]]
+file = "mods/jade-addons-fabric.pw.toml"
+hash = "6f6c3d6646f445f0614c57d9b3c4d56d5b5057d6370f18ed8ac255dc8b65dbbd"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "33022430ccfc723fa386c77650f70b2ad987e1e68fa8986e1de0d9778fafebd7"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "f1e9acf4e6d5dd002f69ea954830995dd3b464a1bd4069ee647f9c25ebaed812"
 metafile = true
@@ -805,11 +839,6 @@ metafile = true
 [[files]]
 file = "mods/wilder-wild.pw.toml"
 hash = "9b025e1052343a3705aa9d3ab0a30943fcd7992aa92327306d7e5101daca9e05"
-metafile = true
-
-[[files]]
-file = "mods/wthit.pw.toml"
-hash = "c0cc16fc8e87fd8e40dd505bd31bca9a86da509ec0f2043831a61cfeb272c8de"
 metafile = true
 
 [[files]]
