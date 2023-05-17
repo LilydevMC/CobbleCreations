@@ -514,11 +514,6 @@ hash = "373a56d7f4fb25661a0585492f7ea490e7613f1191e588fec08782438d52e1fd"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "3f196a5ba67e18f52901014dd413376944faf11cbf2f35722a08ac6195dd363d"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "ec644a70524673946d8a987bbc4d3f0968c4885f55541b837ee14a366b218d35"
 metafile = true
@@ -632,8 +627,8 @@ hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
 
 [[files]]
-file = "mods/mouse-tweaks.pw.toml"
-hash = "8f554f10f3ca26505c1f51871263a7d75fca1e07a288c60c1a96b18f830beede"
+file = "mods/mouse-wheelie.pw.toml"
+hash = "f1ca8ddc248ddaf1a95cadc741c5f8387397ecfb3c957079add3b2881629de30"
 metafile = true
 
 [[files]]

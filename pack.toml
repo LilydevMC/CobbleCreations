@@ -1,12 +1,12 @@
 name = "Cobble Creations"
 author = "jadelily18"
-version = "1.1.0"
+version = "1.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1a448e64ba97580f898e43e22f07d38bc02b8c7c4a124e35eba6ee3dcfe2c678"
+hash = "5579aeb32ed366d515146563b07c7497dd993ebaeae04713a1ade3c0d2a60151"
 
 [versions]
 minecraft = "1.19.2"
