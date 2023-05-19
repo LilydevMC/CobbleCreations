@@ -65,16 +65,12 @@ file = "config/inspecio.json"
 hash = "7708343e1bec29935db21d882ec4e7dc7f0e6cb347e5478e1359e5d24f64cbca"
 
 [[files]]
-file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "fc3766132ef19edfe53712cc86e67eed74138a5f63fac9efb878645da71a7dac"
-
-[[files]]
 file = "config/iris.properties"
 hash = "26de62f94430abfa8700b3b5dec9b92b627d6af7e2b57e6ccd1ab8eec30d0996"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "6d4203f8b62c8b3372945cebf0ae120757b691c5207c2f2cd48d1bce79d07181"
+hash = "b2b90cff22273b0830762834d32e0f043cca163e691ab5515ecc42b0234d9987"
 
 [[files]]
 file = "config/jade/hide-entities.json"
@@ -99,6 +95,10 @@ hash = "7d167b98baf082517e1eb9633045002624cd6ac6f850b567eddcd3e2ecf93b0a"
 [[files]]
 file = "config/minihud.json"
 hash = "368e9841433aad1f47d4caf09ec9a3973e56c9719d84c1aa54df0d9471e922a6"
+
+[[files]]
+file = "config/mousewheelie.hjson"
+hash = "e58c777a4261b342942e34e3f51f3a76af9458278632d0b7f8b96bbcd78353b7"
 
 [[files]]
 file = "config/ok_zoomer/config.toml"
@@ -805,6 +805,10 @@ metafile = true
 file = "mods/twigs.pw.toml"
 hash = "49f66f26db6f00e16e94c0b161f3786f9d7afaef4667e78b9e5e35a1c9556a7d"
 metafile = true
+
+[[files]]
+file = "mods/vanilla-hammers-3.5.0-1.19.2.jar"
+hash = "824fc633b76b880a8ba44c7be62ca5be086f338f7064856897edf8ae37b9ca2f"
 
 [[files]]
 file = "mods/visual-workbench.pw.toml"
