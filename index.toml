@@ -275,6 +275,11 @@ hash = "72a444170f6963bc57c323f98d01d22bdcd400be26a2bfd1d3d02ea34ad096de"
 metafile = true
 
 [[files]]
+file = "mods/charm.pw.toml"
+hash = "ff8960a3bf63e66854c676cf1db8b88c6666bc526e3d3562be297d94c528472a"
+metafile = true
+
+[[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "9cba2d347b86155259f77c55a5aeff95c1e865ff3e55146541d0f4d6fb27c8f1"
 metafile = true
@@ -334,11 +339,6 @@ hash = "f066498a64c8a7c13dc28dda561fb4a2923da63df002e1bbbbf8f2652869cbd2"
 metafile = true
 
 [[files]]
-file = "mods/corgilib.pw.toml"
-hash = "a7392bc71b4df3152d4ea77230c430d50341688e5f4fc292fdb75bdea3ef211a"
-metafile = true
-
-[[files]]
 file = "mods/craftpresence.pw.toml"
 hash = "f1ff9d9465d95ebd61aeb4ce2fdb69fb161ffb7ef772090339197ee4aa9fe070"
 metafile = true
@@ -371,11 +371,6 @@ metafile = true
 [[files]]
 file = "mods/dismount-entity.pw.toml"
 hash = "42288c04400949844e2b1f90285ba20951679db9ef80e478303bbf8e4baa1453"
-metafile = true
-
-[[files]]
-file = "mods/double-doors.pw.toml"
-hash = "05b9d8dd4843bdaf0129f25207b38a53aff35eb113b9c4d304121918cfb01e30"
 metafile = true
 
 [[files]]
