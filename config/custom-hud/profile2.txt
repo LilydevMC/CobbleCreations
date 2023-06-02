@@ -1,0 +1,12 @@
+==BackgroundColor:#30000000==
+
+==Section:TopLeft==
+Minecraft {version} &7| &f{modded_name} &7&o({mods} mods)
+{{fps >= 60, "&a", fps < 30, "&c", "&e"}}{fps}&f fps/{{{s:maxFps} = 260, "inf", "{s:maxFps}"}} &7| &ftps: {{tps >= 20, "&a", tps < 10, "&c", "&e"}}{tps}
+&cX&aY&bZ: &c{bx} &a{by} &b{bz}
+&fFacing: &a{facing} &e({facing_towards_pn_sign}{facing_towards_xz})
+&fBiome: &a{biome} &7&o({dimension}) {{slime_chunk,"&b&oSlime Chunk!"}}
+&fTime: &e{hour24}:{minute}&f, Day: &e{day}
+&fD: &e{local_difficulty} &7// &e{clamped_local_difficulty}
+
+//Find out how to customize this at https://customhud.dev/v3/getting_started.html
