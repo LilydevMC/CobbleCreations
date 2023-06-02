@@ -5,30 +5,6 @@ file = "LICENSE"
 hash = "7d3a95e5e06978064ed3f8e2b7c8f845e7fd8a405294727cc708f94cb83b8059"
 
 [[files]]
-file = "assets/banner.png"
-hash = "6a8b2099cb00c8ef5656520263fa87c66f737cc65e8548ac6c11237d345f1c29"
-
-[[files]]
-file = "assets/banner_no_text.png"
-hash = "f56b3a614d15075a6254588adf67f154a65fd0334ed1a352c0b802522539a6ae"
-
-[[files]]
-file = "assets/icon.png"
-hash = "3cb3469c2580e985cd9d737fc89cba6929d1b4cdea71eb0017d24a6760b499b0"
-
-[[files]]
-file = "assets/icon_200px.png"
-hash = "f7f6c0e923133dd3613075d5cf4714dfad8ff504870788dd3e68a89925131279"
-
-[[files]]
-file = "assets/logo.png"
-hash = "6bd62dddde68907c41c1fbbfe7f185b9b2c1114f2b3ca53e346aaa2b64f02fa1"
-
-[[files]]
-file = "assets/splash_screen.png"
-hash = "54b86ede7c5e22402a701a2b3be378bae76c3b35313d5377e754efa3ac88de18"
-
-[[files]]
 file = "config/NoChatReports/NCR-Common.json"
 hash = "d923f52d7b559b91ee9dcf099ff9b6ea29b81dc9a43d08a494ab7b1c3325f37a"
 
@@ -53,12 +29,28 @@ file = "config/craftpresence.properties"
 hash = "52245491426038474b59233bb556a664132a151d524120eb0ca9e3ee9c7bee91"
 
 [[files]]
+file = "config/custom-hud/config.json"
+hash = "55c235a52398403cc356d2151a1b08bf098483292bba96d8709506b2c445c361"
+
+[[files]]
+file = "config/custom-hud/profile1.txt"
+hash = "425dd750edb9d5bedc077f1c5bb0953c2c8ab3e1fd683f6fa4e380349b4d17a2"
+
+[[files]]
+file = "config/custom-hud/profile2.txt"
+hash = "795fff7e2e270b68098b3cd8ed2d3dbb7c34e19b697c1a1f04c24613931b293f"
+
+[[files]]
+file = "config/custom-hud/profile3.txt"
+hash = "5c6f84b44854108857a3a446fa697d0996489b9bbcc3b0e814f0fe087ccd7707"
+
+[[files]]
 file = "config/customsplashscreen.json5"
 hash = "a45f11202dede66a923c8dc681b6332be3e7574239df14f10b150fb32f8f54df"
 
 [[files]]
 file = "config/customsplashscreen/splash_screen.png"
-hash = "54b86ede7c5e22402a701a2b3be378bae76c3b35313d5377e754efa3ac88de18"
+hash = "6285a1fd316877cda6cd840bafe06fdd524372acd0bf52ecd098b55c44d3c7bc"
 
 [[files]]
 file = "config/emi.css"

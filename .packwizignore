@@ -6,3 +6,6 @@ README.md
 
 # exclude asset project files
 project_files
+
+# exclude larger asset files
+assets
