@@ -9,3 +9,6 @@ project_files
 
 # exclude larger asset files
 assets
+
+# for mrpack-distributor
+mrpack.toml
