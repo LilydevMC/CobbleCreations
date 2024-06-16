@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Release on GitHub Releases
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
     steps:
       - name: Validate release type
         run: |
