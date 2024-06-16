@@ -64,6 +64,11 @@ jobs:
         run: |
           echo "::set-output name=value::$(toml get pack.toml name | sed -e 's/^"//' -e 's/"$//')"
 
+      - name: Get minecraft version
+        id: get_minecraft_version
+        run: |
+          echo "::set-output name=value::$(toml get pack.toml versions.minecraft | sed -e 's/^"//' -e 's/"$//')"
+
       - name: Set pack version
         run: |
           echo "$(toml set pack.toml version ${{ github.event.inputs.version }})" > pack.toml
@@ -96,3 +101,4 @@ jobs:
           loaders: fabric
 
           files: "*.mrpack"
+          game-versions: ${{ steps.get_minecraft_version.outputs.value }}
