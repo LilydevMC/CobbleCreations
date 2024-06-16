@@ -1,0 +1,67 @@
+name: Release to Github Releases
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        type: string
+        description: Modpack Version
+        required: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    name: Release on GitHub Releases
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Install toml-cli
+        uses: baptiste0928/cargo-install@v3
+        with:
+          crate: toml-cli
+
+      - name: Install packwiz
+        uses: actions/setup-go@v4.1.0
+        with:
+          go-version: "1.21.3"
+      - run: go install github.com/packwiz/packwiz@latest
+
+      - name: Checkout Repository Files
+        uses: actions/checkout@v4
+
+      - uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/go-build
+            ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('pack.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Get pack name
+        id: get_pack_name
+        run: |
+          echo "::set-output name=value::$(toml get pack.toml name | sed -e 's/^"//' -e 's/"$//')"
+
+      - name: Set pack version
+        run: |
+          echo "$(toml set pack.toml version ${{ github.event.inputs.version }})" > pack.toml
+
+      - name: Refresh and build .mrpack
+        run: packwiz refresh && packwiz mr export
+
+      - name: Publish artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: artifacts
+          path: "*.mrpack"
+
+      - name: Create release with file
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "*.mrpack"
+          tag_name: v${{ github.event.inputs.version }}
+          name: ${{ steps.get_pack_name.outputs.value }} v${{ github.event.inputs.version }}
+          body: |
+            Release of ${{ steps.get_pack_name.outputs.value }} version ${{ github.event.inputs.version }}
+          draft: false
+          prerelease: false
