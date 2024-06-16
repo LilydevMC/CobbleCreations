@@ -7,12 +7,8 @@
 
 ## About
 
-Cobble Creations is a modpack built around Cobblemon and Create to offer unique ways to explore and *create* with friends!
+Cobble Creations is a modpack built around Cobblemon and Create to offer unique ways to explore and _create_ with friends!
 
 ## License
 
-Licensed under [GNU LGPLv3](https://spdx.org/licenses/LGPL-3.0-or-later.html).
-
-## Partners
-
-[![kinetic hosting promo code: jade](https://raw.githubusercontent.com/jadelily18/assets/main/kinetic_hosting_promo.png)](https://billing.kinetichosting.net/aff.php?aff=334)
+Licensed under the [MIT License](LICENSE).

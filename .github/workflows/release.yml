@@ -6,6 +6,16 @@ on:
         type: string
         description: Modpack Version
         required: true
+      prerelease:
+        type: boolean
+        description: Prerelease
+        required: true
+        default: false
+      release-type:
+        type: string
+        description: Modrinth release type (release, beta, alpha)
+        required: true
+        default: "alpha"
 
 jobs:
   release:
@@ -14,10 +24,22 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      - name: Validate release type
+        run: |
+          if [ "${{ github.event.inputs.release-type }}" != "release" ] && [ "${{ github.event.inputs.release-type }}" != "beta" ] && [ "${{ github.event.inputs.release-type }}" != "alpha" ]; then
+            echo "Invalid release type. Must be one of 'release', 'beta', or 'alpha'."
+            exit 1
+          fi
+
       - name: Install toml-cli
         uses: baptiste0928/cargo-install@v3
         with:
           crate: toml-cli
+
+      - name: Install Jsonxf
+        uses: baptiste0928/cargo-install@v3
+        with:
+          crate: jsonxf
 
       - name: Install packwiz
         uses: actions/setup-go@v4.1.0
@@ -46,6 +68,10 @@ jobs:
         run: |
           echo "$(toml set pack.toml version ${{ github.event.inputs.version }})" > pack.toml
 
+      - name: Write main menu version
+        run: |
+          echo "$(jsonxf -s '{"main_menu":{"bottom_left":[{"text":"${{ steps.get_pack_name.outputs.value }} v${{ github.event.inputs.version }}","clickEvent":{"action":"open_url","value":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}}]}}')" > config/isxander-main-menu-credits.json
+
       - name: Refresh and build .mrpack
         run: packwiz refresh && packwiz mr export
 
@@ -64,4 +90,4 @@ jobs:
           body: |
             Release of ${{ steps.get_pack_name.outputs.value }} version ${{ github.event.inputs.version }}
           draft: false
-          prerelease: false
+          prerelease: ${{ github.event.inputs.prerelease }}
