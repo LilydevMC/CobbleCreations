@@ -96,9 +96,10 @@ jobs:
           github-tag: v${{ github.event.inputs.version }}
           github-prerelease: ${{ github.event.inputs.prerelease }}
 
+          name: ${{ steps.get_pack_name.outputs.value }} v${{ github.event.inputs.version }}
           version: v${{ github.event.inputs.version }}
           version-type: ${{ github.event.inputs.release-type }}
+          game-versions: ${{ steps.get_minecraft_version.outputs.value }}
           loaders: fabric
 
           files: "*.mrpack"
-          game-versions: ${{ steps.get_minecraft_version.outputs.value }}
