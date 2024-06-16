@@ -1,4 +1,4 @@
-name: Release to Github Releases
+name: Release to Github & Modrinth
 on:
   workflow_dispatch:
     inputs:
@@ -20,7 +20,7 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    name: Release on GitHub Releases
+    name: Release to Github & Modrinth
     env:
       GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
     steps:
@@ -81,13 +81,17 @@ jobs:
           name: artifacts
           path: "*.mrpack"
 
-      - name: Create release with file
-        uses: softprops/action-gh-release@v2
+      - name: Publish to GitHub & Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
+          modrinth-id: aiyEE1th
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          github-token: ${{ secrets.RELEASE_TOKEN }}
+          github-tag: v${{ github.event.inputs.version }}
+          github-prerelease: ${{ github.event.inputs.prerelease }}
+
+          version: v${{ github.event.inputs.version }}
+          version-type: ${{ github.event.inputs.release-type }}
+
           files: "*.mrpack"
-          tag_name: v${{ github.event.inputs.version }}
-          name: ${{ steps.get_pack_name.outputs.value }} v${{ github.event.inputs.version }}
-          body: |
-            Release of ${{ steps.get_pack_name.outputs.value }} version ${{ github.event.inputs.version }}
-          draft: false
-          prerelease: ${{ github.event.inputs.prerelease }}
