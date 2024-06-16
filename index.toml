@@ -677,6 +677,11 @@ hash = "a6e087aa1beacb72cbfd77e442c78329b8a3c8af71cd3833078ff4cc7186d64f"
 metafile = true
 
 [[files]]
+file = "mods/pv-addon-soundphysics.pw.toml"
+hash = "699022f3c6f29cdc0aa6c629f46b087f1b2a65766cf14f1889c8f61c4c83cc9a"
+metafile = true
+
+[[files]]
 file = "mods/rechiseled-create.pw.toml"
 hash = "41f18dab192c79a4f4ec38422b38c3d6198ebae71abab86cfbf305a1d008c051"
 metafile = true
