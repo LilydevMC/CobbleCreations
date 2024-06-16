@@ -93,5 +93,6 @@ jobs:
 
           version: v${{ github.event.inputs.version }}
           version-type: ${{ github.event.inputs.release-type }}
+          loaders: fabric
 
           files: "*.mrpack"
