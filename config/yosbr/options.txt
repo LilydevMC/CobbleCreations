@@ -1,7 +1,7 @@
 version:3465
 
 simulationDistance:5
-resourcePacks:["vanilla","fabric","file/Chat Reporting Helper.zip","presencefootsteps:default_sound_pack","Moonlight Mods Dynamic Assets","continuity:default"]
+resourcePacks:["vanilla","fabric","file/Chat Reporting Helper.zip","presencefootsteps:default_sound_pack","Moonlight Mods Dynamic Assets", "file/XaerosCobblemon-2.0.7_stars+1.5.zip"]
 onboardAccessibility:true
 fullscreenMode:2
 guiScale:3

@@ -2,15 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = ".editorconfig"
-hash = "63f6d3348c9da60240e90e62d863ba0054b73837b7b578048a3f5097b4cee4b6"
+hash = "488fc8f8747c2a33a0b1533e458ced4c5d31ec2142aed6f0bfec831a36d75959"
+
+[[files]]
+file = ".github/FUNDING.yml"
+hash = "5180874ab44db1c99f5ce9ba627ff4445d7da26904fea75f19482e34c7c3efa9"
 
 [[files]]
 file = ".github/workflows/release.yml"
-hash = "4e96a81f594d031f26deb5b5fa4d7f63c033c340996b2eaad3a0af10acf1e25e"
-
-[[files]]
-file = ".prettierrc"
-hash = "c7bb94f95e1be5f903650bb245433d82611ab2872ebfe542310ab0d5047cb865"
+hash = "658a93e3bb03dbd74ce3ca5ef1035af35f4198878a1edd970d7b985c3ab2764c"
 
 [[files]]
 file = "LICENSE"
@@ -18,7 +18,7 @@ hash = "98af50e7b2d43122b13b053b6dd4b394bc83a1f68e51ae41d5533b8e691a4827"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "fa76275f339151e240b68cebbc828b8c6d771de88146dd276492545db0ee8a53"
+hash = "25cb8d4dbaf2f7ef8e9d6fc53cf2e869f80cdfadd33bc44206acc34c4d2a094d"
 
 [[files]]
 file = "config/puzzle.json"
@@ -111,6 +111,10 @@ hash = "aef7324d3c235a60b4e62983385d1b4bfd348f3a58995ab2a075e9ca0ac9d3ce"
 [[files]]
 file = "config/yosbr/config/moreculling.toml"
 hash = "a2470fbc25f1a7df9833c57ca6588a356da86d9ab46881e5ce0e505239943fed"
+
+[[files]]
+file = "config/yosbr/config/plasmovoice/server/config.toml"
+hash = "e201270e4c9c73a253709c8091c222a71da573f11d513e70a46a8190b0c21348"
 
 [[files]]
 file = "config/yosbr/config/sodium-options.json"
@@ -492,6 +496,11 @@ hash = "2dded9237b5fbf729ca1947780e8de50bfaaad8b95371370e5263620122bad20"
 metafile = true
 
 [[files]]
+file = "mods/harvest-with-ease.pw.toml"
+hash = "fb66ee96cf8bb97318f621112bf35f1902a17deb286d9fde31c2ce72c63e60d7"
+metafile = true
+
+[[files]]
 file = "mods/highlight.pw.toml"
 hash = "17e0130bc29e14dd26019d0f0ccef1fab6f8dc7ab2a5ea60a6c734cae127d741"
 metafile = true
@@ -844,6 +853,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/complementary-music.pw.toml"
 hash = "b8032523de76b207cedce659551b44abea7388b17d680e80e2a57254c916dc45"
+metafile = true
+
+[[files]]
+file = "resourcepacks/xaeroscobblemon.pw.toml"
+hash = "bdb1145e20e2be5aa2491a0b5a940c5dcec437160f119c172df9a798a1e1b0c2"
 metafile = true
 
 [[files]]
