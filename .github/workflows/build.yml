@@ -36,8 +36,8 @@ jobs:
       - name: Set pack version
         id: set_pack_version
         run: |
-          echo "$(toml set pack.toml version DEV-${{ github.sha }})" > pack.toml
-          echo "::set-output name=value::DEV-${{ github.sha }}"
+          echo "$(toml set pack.toml version dev-${{ github.sha }})" > pack.toml
+          echo "::set-output name=value::dev-${{ github.sha }}"
 
       - name: Write main menu version
         run: |
@@ -49,5 +49,5 @@ jobs:
       - name: Publish artifact
         uses: actions/upload-artifact@v3
         with:
-          name: artifacts
+          name: "Development Build - ${{ github.sha }}"
           path: "*.mrpack"
