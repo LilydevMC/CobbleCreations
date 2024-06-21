@@ -47,15 +47,6 @@ jobs:
       - name: Checkout Repository Files
         uses: actions/checkout@v4
 
-      - uses: actions/cache@v3
-        with:
-          path: |
-            ~/.cache/go-build
-            ~/go/pkg/mod
-          key: ${{ runner.os }}-go-${{ hashFiles('pack.toml') }}
-          restore-keys: |
-            ${{ runner.os }}-go-
-
       - name: Get pack name
         id: get_pack_name
         run: |
