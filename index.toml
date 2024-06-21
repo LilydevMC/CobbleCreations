@@ -10,7 +10,7 @@ hash = "5180874ab44db1c99f5ce9ba627ff4445d7da26904fea75f19482e34c7c3efa9"
 
 [[files]]
 file = ".github/workflows/release.yml"
-hash = "658a93e3bb03dbd74ce3ca5ef1035af35f4198878a1edd970d7b985c3ab2764c"
+hash = "ca26abc487df14d3d3fa4fd3d52f98ce0e39f344385680f3e9f929606c7a47b1"
 
 [[files]]
 file = "LICENSE"

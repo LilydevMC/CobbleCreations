@@ -42,10 +42,7 @@ jobs:
           crate: jsonxf
 
       - name: Install packwiz
-        uses: actions/setup-go@v4.1.0
-        with:
-          go-version: "1.21.3"
-      - run: go install github.com/packwiz/packwiz@latest
+        uses: actionhippie/install-packwiz@v1
 
       - name: Checkout Repository Files
         uses: actions/checkout@v4
