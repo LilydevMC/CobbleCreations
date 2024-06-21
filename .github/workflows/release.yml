@@ -117,7 +117,7 @@ jobs:
           embed-author-icon-url: "https://github.com/${{ github.repository_owner }}.png"
 
           embed-title: "${{ steps.get_pack_name.outputs.value }} v${{ github.event.inputs.version }}"
-          embed-color: 0xf5c2e7
+          embed-color: 0xf38ba8
           embed-image-url: "https://cdn.jsdelivr.net/gh/${{ github.repository }}@v2/assets/banner.png"
           embed-thumbnail-url: "https://cdn.jsdelivr.net/gh/${{ github.repository }}@v2/assets/icon.png"
 
