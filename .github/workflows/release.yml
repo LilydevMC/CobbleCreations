@@ -87,6 +87,7 @@ jobs:
           path: "*.mrpack"
 
       - name: Publish to GitHub & Modrinth
+        id: publish_pack
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: aiyEE1th
@@ -103,3 +104,24 @@ jobs:
           loaders: fabric
 
           files: "*.mrpack"
+
+      - name: Send Discord webhook
+        uses: tsickert/discord-webhook@v5.3.0
+        with:
+          webhook-url: ${{ secrets.PERSONAL_DISCORD_WEBHOOK_URL }}
+          content: "<@&1253506404216471572>"
+          username: "${{ steps.get_pack_name.outputs.value }} - Updates"
+          avatar-url: "https://cdn.jsdelivr.net/gh/${{ github.repository }}@v2/assets/icon.png"
+
+          embed-author-name: ${{ github.repository_owner }}
+          embed-author-icon-url: "https://github.com/${{ github.repository_owner }}.png"
+
+          embed-title: "${{ steps.get_pack_name.outputs.value }} v${{ github.event.inputs.version }}"
+          embed-color: 0xf5c2e7
+          embed-image-url: "https://cdn.jsdelivr.net/gh/${{ github.repository }}@v2/assets/banner.png"
+          embed-thumbnail-url: "https://cdn.jsdelivr.net/gh/${{ github.repository }}@v2/assets/icon.png"
+
+          embed-description: |
+            - <:modrinth:1253522830121893899> **[Modrinth](${{ steps.publish_pack.outputs.modrinth-url }})** (Recommended)
+            - <:github:1253522536856162334> [GitHub Releases](${{ steps.publish_pack.outputs.github-url }})
+            - <:code:1253523807025762414> [Source code](https://github.com/${{ github.repository }})
