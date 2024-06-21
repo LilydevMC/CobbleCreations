@@ -130,7 +130,11 @@ hash = "024ab81167c90c77a81797fdc769b7d4b96c2d2be076b5f94ce28c289c05cd1d"
 
 [[files]]
 file = "config/yosbr/config/xaerominimap.txt"
-hash = "b5cfe4b9726c4be4b138944bc1a411ad499210b1b2bbf9c0c9427a6798c5214d"
+hash = "8e0644a6acc41e8f1042a801b59315b537580694b18ba10a046eb34650e6a722"
+
+[[files]]
+file = "config/yosbr/config/xaerominimap_entities.json"
+hash = "b72c800f7894add1fbf0bfbfbcaf8bf5bb68376e008f208a1dcd45e139434585"
 
 [[files]]
 file = "config/yosbr/config/zoomify.json"
@@ -138,7 +142,7 @@ hash = "a976790273f6b66afddfd08627ef23ed890e10d1690ded24298fa2149de9bea6"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "b098b488a468cf8df4e985448921d9df9d51ee7f766345be65e83062b3b72e3e"
+hash = "d22a6d5f1515be439579ef82bab05298266c02a9ef1036cf0302a09253e76751"
 
 [[files]]
 file = "datapacks/missingmons-cobblemon.pw.toml"
@@ -236,6 +240,11 @@ hash = "a4fade36fea835439b9bd6f3c6d211cf149cb2d345ab2b90fdf5ee9fa90d4b03"
 metafile = true
 
 [[files]]
+file = "mods/botarium.pw.toml"
+hash = "43fe767a08365fa6c049c8e35323f6fd1a0aa4602725126e460ae6fd514888be"
+metafile = true
+
+[[files]]
 file = "mods/capes.pw.toml"
 hash = "4c712d7ad6d2ddb130b845c3b2c660be7cb7795db21be00b130443730719305e"
 metafile = true
@@ -281,8 +290,23 @@ hash = "4d2ec7d89701b9ea007251dd9a5080942e665d517fc35b175723bd2820c4a975"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-capture-xp.pw.toml"
+hash = "ea8db677ff0708fff6d58e47a8ff1fc70769c79d85c1ba1fadfbca72ecda944c"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-fight-or-flight.pw.toml"
 hash = "e6dc6258b74e2caa896fdf4a56f16893721806061fc143bc5867be186f5f35ee"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-integrations.pw.toml"
+hash = "d9b089c65a50943da96f21ab74fe9e176aeceddb797d7127cfaed9e8000d73e1"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-loot-balls.pw.toml"
+hash = "10f98ef09b528ac3cb6c874e3d525a21f321c50aaeb75545ff6784a048855544"
 metafile = true
 
 [[files]]
@@ -301,6 +325,11 @@ hash = "c5f97e84177a5d77449dfb7e777cfd9d6d6a080f154d5db0d302f7d556b4f814"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "80510227311a8bc980c2814700f450c30b825ebadb41f9f1e79400f8a7925ee8"
+metafile = true
+
+[[files]]
 file = "mods/cosmetic-armor.pw.toml"
 hash = "b7554f6904cd09f88067fa11b7edbe1d8ff88f75bfb4a437d19b50dcae607b61"
 metafile = true
@@ -311,8 +340,18 @@ hash = "e1622902dab5e0928d59065d1bc4efb7bc61db45578183c905fe4e53b87f3526"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "0372b9ea1233cf516f205bed50c4014bfb4e806406657b8f803409a71d81d88a"
+metafile = true
+
+[[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "26394151533372bce2229f31c8df7f65e2deb751cc823f317cd30682381acc8f"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "b5a83b1ca240286be1aa97b3c3dd96c2e481dc0332dc2541f900cded4a719a82"
 metafile = true
 
 [[files]]
@@ -408,6 +447,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "360959c50ff0b2765e683273b256cac86ccf8b4b96b54ad863d45ae2c44bf35f"
+metafile = true
+
+[[files]]
+file = "mods/estrogen.pw.toml"
+hash = "76294a9eee8c21ba9ef74d2718ff0ebd860a8343cae1eaa5ce9fb1cd2cfa9da6"
 metafile = true
 
 [[files]]
