@@ -9,8 +9,12 @@ file = ".github/FUNDING.yml"
 hash = "5180874ab44db1c99f5ce9ba627ff4445d7da26904fea75f19482e34c7c3efa9"
 
 [[files]]
+file = ".github/workflows/build.yml"
+hash = "3f9be7a7353d7234baeb8b57138bea441f3b991967079451f1caa8931b877def"
+
+[[files]]
 file = ".github/workflows/release.yml"
-hash = "ca26abc487df14d3d3fa4fd3d52f98ce0e39f344385680f3e9f929606c7a47b1"
+hash = "418ee831c9732e916837c8223574f974df22e0b4b228d90444adb6889f70f2b5"
 
 [[files]]
 file = "LICENSE"
