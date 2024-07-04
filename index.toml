@@ -208,6 +208,11 @@ hash = "e3dfb2478e6bb096667d4ec89b0ddfef627747939373bdefee02f358d6e3dee1"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "0cbcd58c49decc0ecbccd330fcc8326e3b8769e22e1740e229f09541acf3df7f"
+metafile = true
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "e5d87db8974fa2b69870d7ea2f0878ae7d9aabd5f6b1cadb0ea45cd641e89f24"
 metafile = true
@@ -328,13 +333,13 @@ hash = "d9b089c65a50943da96f21ab74fe9e176aeceddb797d7127cfaed9e8000d73e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-legendary-structures.pw.toml"
-hash = "61ec1a826bc4d8d161136ae1dea98068c0ad280dfba291c8b8f85cfcac7d1d63"
+file = "mods/cobblemon-loot-balls.pw.toml"
+hash = "10f98ef09b528ac3cb6c874e3d525a21f321c50aaeb75545ff6784a048855544"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-loot-balls.pw.toml"
-hash = "10f98ef09b528ac3cb6c874e3d525a21f321c50aaeb75545ff6784a048855544"
+file = "mods/cobblemon-myths-and-legends-addon.pw.toml"
+hash = "ff2fa3358bfb3969b1dac302205d112fbcfeb037ac389477bad97320599c338e"
 metafile = true
 
 [[files]]
@@ -715,6 +720,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
 hash = "0a42eb060173bf1994e480d160de17d8a61af01758fc1c6b70f9a42dba75d61b"
+metafile = true
+
+[[files]]
+file = "mods/myths-and-legends-datapack.pw.toml"
+hash = "705f2d92d89069810eacbb842418442a144b0decb28c17fc3650f78f694d75b4"
 metafile = true
 
 [[files]]

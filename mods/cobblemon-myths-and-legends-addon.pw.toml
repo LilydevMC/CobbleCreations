@@ -1,0 +1,13 @@
+name = "Cobblemon Myths and Legends Addon"
+filename = "Myths_and_Legends-1.4-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CaOWby9K/versions/qdRrzyID/Myths_and_Legends-1.4-fabric.jar"
+hash-format = "sha1"
+hash = "ffa23988306f01cf891680a2f63ac785d756caaa"
+
+[update]
+[update.modrinth]
+mod-id = "CaOWby9K"
+version = "qdRrzyID"
