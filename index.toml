@@ -125,12 +125,16 @@ file = "config/yosbr/config/sodium-options.json"
 hash = "6555c8c1fc4d773df097895dfb76fe004377347581d5731f5408fb9d138585a2"
 
 [[files]]
+file = "config/yosbr/config/spawn_notification.json"
+hash = "20a85a1344262c548e1f312eb343fad7543e3e650328a05254e714366c462d82"
+
+[[files]]
 file = "config/yosbr/config/threadtweak.json"
 hash = "545cbe317c5146bacb9e13c7c03a605f0b6bd6e1ddaf1a05f8be8537d6f8b0ce"
 
 [[files]]
 file = "config/yosbr/config/world-host.json5"
-hash = "024ab81167c90c77a81797fdc769b7d4b96c2d2be076b5f94ce28c289c05cd1d"
+hash = "8fe8c08aa59da7196a88b6aa055d861f8c322e606b3592138f85ee37b478bd60"
 
 [[files]]
 file = "config/yosbr/config/xaerominimap.txt"
@@ -147,6 +151,11 @@ hash = "a976790273f6b66afddfd08627ef23ed890e10d1690ded24298fa2149de9bea6"
 [[files]]
 file = "config/yosbr/options.txt"
 hash = "d22a6d5f1515be439579ef82bab05298266c02a9ef1036cf0302a09253e76751"
+
+[[files]]
+file = "datapacks/hiddenmons-cobblemon.pw.toml"
+hash = "debce476c83cf1f9cf0c612d85f192efbe920425c1b81b4396581b77bfb60ccc"
+metafile = true
 
 [[files]]
 file = "datapacks/missingmons-cobblemon.pw.toml"
@@ -921,6 +930,21 @@ metafile = true
 [[files]]
 file = "resourcepacks/complementary-music.pw.toml"
 hash = "b8032523de76b207cedce659551b44abea7388b17d680e80e2a57254c916dc45"
+metafile = true
+
+[[files]]
+file = "resourcepacks/hiddenmons-cobblemon.pw.toml"
+hash = "debce476c83cf1f9cf0c612d85f192efbe920425c1b81b4396581b77bfb60ccc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/missingmons-cobblemon.pw.toml"
+hash = "bc1acdfd758ba966e6f510e0a3732d95c5c73df2794027859f65ef950a09a41d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mysticmons.pw.toml"
+hash = "6b44e77c49bd531dde1a7def92eaf28e7720862611aff7e69408d83a2b082d83"
 metafile = true
 
 [[files]]
