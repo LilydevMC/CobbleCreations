@@ -89,6 +89,10 @@ file = "config/yosbr/config/ferritecore.mixin.properties"
 hash = "1fbbea658d8af2a751857e70cf2d5930a24490cc4c24f8db9b49630a818b895c"
 
 [[files]]
+file = "config/yosbr/config/friendsandfoes.json"
+hash = "2d959d12c1b7a9ece06706ac0a8f6e53f47dacc22c817786dc69c37bb5f2b9b4"
+
+[[files]]
 file = "config/yosbr/config/immediatelyfast.json"
 hash = "fe6551b3aa77d3b624acff41ed6bf65b3d6d5c8821b7bda8875ff7b6b75e0c43"
 
@@ -115,6 +119,10 @@ hash = "aef7324d3c235a60b4e62983385d1b4bfd348f3a58995ab2a075e9ca0ac9d3ce"
 [[files]]
 file = "config/yosbr/config/moreculling.toml"
 hash = "a2470fbc25f1a7df9833c57ca6588a356da86d9ab46881e5ce0e505239943fed"
+
+[[files]]
+file = "config/yosbr/config/plasmovoice/client.toml"
+hash = "7a2df949bede530f668641063915cc5f1f900c2062731879ee79d5f8a8c224a4"
 
 [[files]]
 file = "config/yosbr/config/plasmovoice/server/config.toml"
@@ -150,7 +158,7 @@ hash = "a976790273f6b66afddfd08627ef23ed890e10d1690ded24298fa2149de9bea6"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "8773d4f8972d19bb9af928b19071b66ab977d36cb2fb8adc401757071a50634b"
+hash = "19f8383cacdda41dce355334e790b953f1b1ed19700a06d02fbd819d8cdb040e"
 
 [[files]]
 file = "datapacks/alphabetsoup.pw.toml"
