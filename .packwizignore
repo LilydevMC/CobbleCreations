@@ -1,8 +1,10 @@
 # exclude exported curseforge/modrinth packs (only at root)
-*.zip
-*.mrpack
+/*.zip
+/*.mrpack
 
 README.md
+.github
+.editorconfig
 
 # exclude asset project files
 project_files
