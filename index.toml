@@ -153,6 +153,11 @@ file = "config/yosbr/options.txt"
 hash = "d22a6d5f1515be439579ef82bab05298266c02a9ef1036cf0302a09253e76751"
 
 [[files]]
+file = "datapacks/alphabetsoup.pw.toml"
+hash = "6c84a68837983667a484bb55ecbe9e0abf7d3210a2c55fb6ee4d1077b7d59c65"
+metafile = true
+
+[[files]]
 file = "datapacks/hiddenmons-cobblemon.pw.toml"
 hash = "debce476c83cf1f9cf0c612d85f192efbe920425c1b81b4396581b77bfb60ccc"
 metafile = true
@@ -165,6 +170,11 @@ metafile = true
 [[files]]
 file = "datapacks/mysticmons.pw.toml"
 hash = "6b44e77c49bd531dde1a7def92eaf28e7720862611aff7e69408d83a2b082d83"
+metafile = true
+
+[[files]]
+file = "datapacks/vivillon-pride-patterns.pw.toml"
+hash = "fde6c46522b1d5326be7acd7e9e8febc3a2093153b737f9cf64e7085ff966eea"
 metafile = true
 
 [[files]]
@@ -315,6 +325,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-integrations.pw.toml"
 hash = "d9b089c65a50943da96f21ab74fe9e176aeceddb797d7127cfaed9e8000d73e1"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-legendary-structures.pw.toml"
+hash = "61ec1a826bc4d8d161136ae1dea98068c0ad280dfba291c8b8f85cfcac7d1d63"
 metafile = true
 
 [[files]]
@@ -923,6 +938,11 @@ hash = "ca813dd20d49bff1aad639a671da5b4bfdf1cb5e40de13d5e9c0ddc9754c3dcf"
 metafile = true
 
 [[files]]
+file = "resourcepacks/alphabetsoup.pw.toml"
+hash = "6c84a68837983667a484bb55ecbe9e0abf7d3210a2c55fb6ee4d1077b7d59c65"
+metafile = true
+
+[[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
 hash = "f1f74f07924a5b0eb57e7c662c2e3f8c56d50eaee0dc2cb4cb40985af8eb9cf4"
 metafile = true
@@ -945,6 +965,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/mysticmons.pw.toml"
 hash = "6b44e77c49bd531dde1a7def92eaf28e7720862611aff7e69408d83a2b082d83"
+metafile = true
+
+[[files]]
+file = "resourcepacks/vivillon-pride-patterns.pw.toml"
+hash = "fde6c46522b1d5326be7acd7e9e8febc3a2093153b737f9cf64e7085ff966eea"
 metafile = true
 
 [[files]]
