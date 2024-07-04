@@ -338,6 +338,11 @@ hash = "10f98ef09b528ac3cb6c874e3d525a21f321c50aaeb75545ff6784a048855544"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-move-inspector.pw.toml"
+hash = "c6f5e505776223794e275727b7d59e26fc62578961ceeffab086c6eab46cb5b3"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-myths-and-legends-addon.pw.toml"
 hash = "ff2fa3358bfb3969b1dac302205d112fbcfeb037ac389477bad97320599c338e"
 metafile = true
