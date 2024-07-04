@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:rubber_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_rubber_log",
+			"count": 1
+		}
+	]
+}

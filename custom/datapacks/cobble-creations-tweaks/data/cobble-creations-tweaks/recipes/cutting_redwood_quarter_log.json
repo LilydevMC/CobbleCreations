@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:redwood_quarter_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_redwood_quarter_log",
+			"count": 1
+		}
+	]
+}

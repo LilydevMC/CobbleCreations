@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:yucca_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_yucca_log",
+			"count": 1
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:cypress_quarter_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_cypress_quarter_log",
+			"count": 1
+		}
+	]
+}

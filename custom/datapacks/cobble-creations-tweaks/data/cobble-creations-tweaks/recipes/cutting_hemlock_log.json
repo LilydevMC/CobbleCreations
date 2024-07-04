@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:hemlock_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_hemlock_log",
+			"count": 1
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:rainbow_eucalyptus_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_rainbow_eucalyptus_log",
+			"count": 1
+		}
+	]
+}

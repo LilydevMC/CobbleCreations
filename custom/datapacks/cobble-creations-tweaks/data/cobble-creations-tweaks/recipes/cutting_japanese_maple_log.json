@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:japanese_maple_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_japanese_maple_log",
+			"count": 1
+		}
+	]
+}

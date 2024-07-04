@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:sakura_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_sakura_log",
+			"count": 1
+		}
+	]
+}

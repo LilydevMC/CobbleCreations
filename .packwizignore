@@ -1,4 +1,4 @@
-# exclude exported curseforge/modrinth packs
+# exclude exported curseforge/modrinth packs (only at root)
 *.zip
 *.mrpack
 
@@ -9,3 +9,6 @@ project_files
 
 # exclude larger asset files
 assets
+
+# dev files for custom styff
+custom

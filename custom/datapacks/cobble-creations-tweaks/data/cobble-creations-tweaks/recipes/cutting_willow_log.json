@@ -1,0 +1,14 @@
+{
+	"type": "create:cutting",
+	"ingredients": [
+		{
+			"item": "terrestria:willow_log"
+		}
+	],
+	"results": [
+		{
+			"item": "terrestria:stripped_willow_log",
+			"count": 1
+		}
+	]
+}
