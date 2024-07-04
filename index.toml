@@ -150,7 +150,7 @@ hash = "a976790273f6b66afddfd08627ef23ed890e10d1690ded24298fa2149de9bea6"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "d22a6d5f1515be439579ef82bab05298266c02a9ef1036cf0302a09253e76751"
+hash = "8773d4f8972d19bb9af928b19071b66ab977d36cb2fb8adc401757071a50634b"
 
 [[files]]
 file = "datapacks/alphabetsoup.pw.toml"
@@ -648,6 +648,11 @@ hash = "d2fb9aba12d1c0bafcde37bc71ca679d10630386b01f235ea7ed651093c2905f"
 metafile = true
 
 [[files]]
+file = "mods/itemswapper.pw.toml"
+hash = "e61f43300796c115920c31eed47b86a2e93193fd03c703919077bfe8e6ee6fb2"
+metafile = true
+
+[[files]]
 file = "mods/jade-addons-fabric.pw.toml"
 hash = "063ef9a509d15f98acd95d4032e617b90c9f0d105c8872b9186d6ed16672247a"
 metafile = true
@@ -675,6 +680,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "4635fd04883c36cc8e0fdbd7ccca40c9613daeb777c3fc9164c3e15c39dfb690"
+metafile = true
+
+[[files]]
+file = "mods/lighty.pw.toml"
+hash = "badc0b9411d65dca5904930414c12777077cb7ad339763cb74866b971751bb7e"
 metafile = true
 
 [[files]]
