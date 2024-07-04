@@ -33,3 +33,9 @@ key_zoomify.key.zoom.secondary:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_key.amecs.toggle_auto_jump:key.keyboard.unknown
+key_key.itemswapper.itemswitcher:key.keyboard.y
+key_supplementaries.keybind.quiver:key.keyboard.unknown
+key_key.lighty.enable:key.keyboard.f8
+key_key.lighty.toggle:key.keyboard.f7
+key_key.plasmovoice.settings:key.keyboard.backslash
