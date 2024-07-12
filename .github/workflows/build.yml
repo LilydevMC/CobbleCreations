@@ -56,3 +56,27 @@ jobs:
         with:
           name: "Development Build - ${{ github.sha }}"
           path: "*.mrpack"
+
+      - name: Rename pack file
+        run: mv *.mrpack ${{ github.sha }}.mrpack
+
+      - name: Upload to file server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.JHS_FILESERVER_SSH_HOST }}
+          username: ${{ secrets.JHS_FILESERVER_SSH_USER }}
+          port: ${{ secrets.JHS_FILESERVER_SSH_PORT }}
+          key: ${{ secrets.JHS_FILESERVER_SSH_PRIVATE_KEY}}
+          source: ${{ github.sha }}.mrpack
+          target: ${{ secrets.JHS_FILESERVER_ROOT_DIR }}/mc/cobble-creations/dev
+
+      - name: Symlink to latest.mrpack
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.JHS_FILESERVER_SSH_HOST }}
+          username: ${{ secrets.JHS_FILESERVER_SSH_USER }}
+          port: ${{ secrets.JHS_FILESERVER_SSH_PORT }}
+          key: ${{ secrets.JHS_FILESERVER_SSH_PRIVATE_KEY}}
+          script: |
+            cd ${{ secrets.JHS_FILESERVER_ROOT_DIR }}/mc/cobble-creations/dev
+            ln -sf ${{ github.sha }}.mrpack latest.mrpack
