@@ -45,7 +45,7 @@ jobs:
 
       - name: Export datapack
         run: |
-          zip -r cobble-creations-tweaks custom/datapacks/cobble-creations-tweaks/
+          (cd custom/datapacks/cobble-creations-tweaks && zip -r ../../../cobble-creations .)
           mv cobble-creations-tweaks.zip datapacks/
 
       - name: Refresh and build .mrpack
