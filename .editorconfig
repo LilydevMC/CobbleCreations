@@ -5,3 +5,7 @@ indent_style = tab
 [*.yml]
 tab_width = 2
 indent_style = space
+
+[*.mcmeta]
+tab_width = 2
+indent_style = space

@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"description": "Cobble Creations Tweaks",
-		"pack_format": 15
-	}
+  "pack": {
+    "pack_format": 15,
+    "description": "Cobble Creations Tweaks"
+  }
 }

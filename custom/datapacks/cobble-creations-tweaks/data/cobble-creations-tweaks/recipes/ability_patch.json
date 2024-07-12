@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["###", "A#A", "###"],
+	"key": {
+		"#": {
+			"item": "minecraft:leather"
+		},
+		"A": {
+			"item": "cobblemon:ability_capsule"
+		}
+	},
+	"result": {
+		"item": "cobblemon:ability_patch",
+		"count": 1
+	}
+}
