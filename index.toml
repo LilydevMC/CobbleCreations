@@ -315,6 +315,11 @@ hash = "ea8db677ff0708fff6d58e47a8ff1fc70769c79d85c1ba1fadfbca72ecda944c"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-counter.pw.toml"
+hash = "e0934176a8e96cb2b5df92521a578bb6025718c2675d6e85a1fbd48a2d41528a"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-fight-or-flight.pw.toml"
 hash = "e6dc6258b74e2caa896fdf4a56f16893721806061fc143bc5867be186f5f35ee"
 metafile = true
@@ -342,6 +347,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "21502bda501d5d1f5338bc3d0c559098709aaf47ddb6ea94c2d1a2682926d607"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-unchained.pw.toml"
+hash = "6d93aee76af99dcadb659eb6b1854f0758e4c4e59ed78b66c8798149dfda6067"
 metafile = true
 
 [[files]]
@@ -667,6 +677,11 @@ metafile = true
 [[files]]
 file = "mods/lavender.pw.toml"
 hash = "62231160341ef817abdb470b0178423f0005590201bc9da55f9c83655bac6848"
+metafile = true
+
+[[files]]
+file = "mods/leaves-us-in-peace.pw.toml"
+hash = "c23753ee282f1be4a19fb7b90af9705f92043f36c6675028cae7a2ce8c24c609"
 metafile = true
 
 [[files]]
