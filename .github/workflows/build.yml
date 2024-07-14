@@ -46,7 +46,7 @@ jobs:
       - name: Export datapack
         run: |
           (cd custom/datapacks/cobble-creations-tweaks && zip -r ../../../cobble-creations-tweaks .)
-          mv cobble-creations-tweaks.zip datapacks/
+          mv cobble-creations-tweaks.zip openloader/data/
 
       - name: Refresh and build .mrpack
         run: packwiz refresh && packwiz mr export

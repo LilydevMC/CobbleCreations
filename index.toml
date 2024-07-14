@@ -145,31 +145,6 @@ file = "config/yosbr/options.txt"
 hash = "19f8383cacdda41dce355334e790b953f1b1ed19700a06d02fbd819d8cdb040e"
 
 [[files]]
-file = "datapacks/alphabetsoup.pw.toml"
-hash = "6c84a68837983667a484bb55ecbe9e0abf7d3210a2c55fb6ee4d1077b7d59c65"
-metafile = true
-
-[[files]]
-file = "datapacks/hiddenmons-cobblemon.pw.toml"
-hash = "debce476c83cf1f9cf0c612d85f192efbe920425c1b81b4396581b77bfb60ccc"
-metafile = true
-
-[[files]]
-file = "datapacks/missingmons-cobblemon.pw.toml"
-hash = "bc1acdfd758ba966e6f510e0a3732d95c5c73df2794027859f65ef950a09a41d"
-metafile = true
-
-[[files]]
-file = "datapacks/mysticmons.pw.toml"
-hash = "6b44e77c49bd531dde1a7def92eaf28e7720862611aff7e69408d83a2b082d83"
-metafile = true
-
-[[files]]
-file = "datapacks/vivillon-pride-patterns.pw.toml"
-hash = "fde6c46522b1d5326be7acd7e9e8febc3a2093153b737f9cf64e7085ff966eea"
-metafile = true
-
-[[files]]
 file = "mods/adaptive-tooltips.pw.toml"
 hash = "32d8577e634fc4084a8e3bcd1171ed1921580a020efeea2f52fe8b4a8580cade"
 metafile = true
@@ -432,11 +407,6 @@ metafile = true
 [[files]]
 file = "mods/cut-through.pw.toml"
 hash = "e519048f1be3e12f717e5f812b0c407d01f1c178951468638581af2d19f6c689"
-metafile = true
-
-[[files]]
-file = "mods/dataloader.pw.toml"
-hash = "60172c258cc9297e51f7712ff68da42b3f690f59cfb243a4131437d3f75f9c3a"
 metafile = true
 
 [[files]]
@@ -775,6 +745,11 @@ hash = "c737bdfd6940736f88cd39065a0193ba70637a560fbce4389e59f67d72813209"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.pw.toml"
+hash = "ec277331d582b3e88b3f6bed3a77f4f526689680507d718f76a1d0fd03ffcf54"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "28b3e0806647eb166e942cf6552993bb6d666949c53f0d51927bdfb063cb6cc4"
 metafile = true
@@ -972,6 +947,31 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 hash = "a2fcbfa66810d21fc67499ea6fc65b4c465110d52c92408f6c35d7c1e1f96c6d"
+metafile = true
+
+[[files]]
+file = "openloader/data/alphabetsoup.pw.toml"
+hash = "6c84a68837983667a484bb55ecbe9e0abf7d3210a2c55fb6ee4d1077b7d59c65"
+metafile = true
+
+[[files]]
+file = "openloader/data/hiddenmons-cobblemon.pw.toml"
+hash = "debce476c83cf1f9cf0c612d85f192efbe920425c1b81b4396581b77bfb60ccc"
+metafile = true
+
+[[files]]
+file = "openloader/data/missingmons-cobblemon.pw.toml"
+hash = "bc1acdfd758ba966e6f510e0a3732d95c5c73df2794027859f65ef950a09a41d"
+metafile = true
+
+[[files]]
+file = "openloader/data/mysticmons.pw.toml"
+hash = "6b44e77c49bd531dde1a7def92eaf28e7720862611aff7e69408d83a2b082d83"
+metafile = true
+
+[[files]]
+file = "openloader/data/vivillon-pride-patterns.pw.toml"
+hash = "fde6c46522b1d5326be7acd7e9e8febc3a2093153b737f9cf64e7085ff966eea"
 metafile = true
 
 [[files]]
