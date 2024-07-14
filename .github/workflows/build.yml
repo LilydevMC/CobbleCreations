@@ -43,11 +43,6 @@ jobs:
         run: |
           echo "$(jsonxf -s '{"main_menu":{"bottom_left":[{"text":"${{ steps.get_pack_name.outputs.value }} ${{ steps.set_pack_version.outputs.value }}","clickEvent":{"action":"open_url","value":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}}]}}')" > config/isxander-main-menu-credits.json
 
-      - name: Export datapack
-        run: |
-          (cd custom/datapacks/cobble-creations-tweaks && zip -r ../../../cobble-creations-tweaks .)
-          mv cobble-creations-tweaks.zip openloader/data/
-
       - name: Refresh and build .mrpack
         run: packwiz refresh && packwiz mr export
 

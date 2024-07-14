@@ -13,4 +13,4 @@ fabric = "0.15.11"
 minecraft = "1.20.1"
 
 [options]
-datapack-folder = "openloader/data"
+datapack-folder = "config/openloader/data"
