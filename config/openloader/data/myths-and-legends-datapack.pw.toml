@@ -1,0 +1,13 @@
+name = "Myths and Legends"
+filename = "MythsandLegends-Datapack-v1.0.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BUn2XhG1/versions/okoZxA8C/MythsandLegends-Datapack-v1.0.1.zip"
+hash-format = "sha1"
+hash = "3d8f8d51af10de42db3f94b558906bf60927fcb6"
+
+[update]
+[update.modrinth]
+mod-id = "BUn2XhG1"
+version = "okoZxA8C"

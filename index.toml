@@ -9,6 +9,11 @@ file = "config/isxander-main-menu-credits.json"
 hash = "25cb8d4dbaf2f7ef8e9d6fc53cf2e869f80cdfadd33bc44206acc34c4d2a094d"
 
 [[files]]
+file = "config/openloader/data/myths-and-legends-datapack.pw.toml"
+hash = "aa4783d025d674495b35fd955f538c82e34bec8f981afa48fd45edf1f3528cf2"
+metafile = true
+
+[[files]]
 file = "config/puzzle.json"
 hash = "29e34dcae395493915e08104170e5df30a5423aff483d1cf0762740200027d8e"
 
